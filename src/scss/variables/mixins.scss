@@ -1,0 +1,7 @@
+@mixin clickingEffect() {
+  box-shadow: 2px 2px black;
+  &:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px;
+  }
+}
