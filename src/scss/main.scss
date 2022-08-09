@@ -23,3 +23,9 @@ button {
 .content {
   margin: 0 auto;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

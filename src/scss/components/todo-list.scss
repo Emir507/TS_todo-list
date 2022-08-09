@@ -9,11 +9,6 @@ $success-color: rgb(0, 255, 157);
     box-shadow: 0px 0px;
   }
 }
-.column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 .todo__title {
   margin-bottom: $default-offset;
