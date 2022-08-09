@@ -1,0 +1,25 @@
+@import "./variables/index.scss";
+@import "./components/todo-list";
+@import "./components/alerts";
+body {
+  background-color: rgb(43, 93, 220) !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.wrapper {
+  padding: 5px;
+}
+
+.content {
+  margin: 0 auto;
+}

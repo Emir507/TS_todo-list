@@ -1,0 +1,14 @@
+.alert-list {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 300px;
+}
+
+.alert-success {
+  background-color: #04f4bb !important;
+}
+.alert-danger {
+  background-color: #ed4337 !important;
+  color: #fff !important;
+}
